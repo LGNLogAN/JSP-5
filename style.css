@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+#Section_Bold{
+	font-weight: Bold;
+}
+
+body{margin:0;}
+
+header{
+	position : fiexd;
+	top : 0px;
+	width : 100%;
+	line-height: 50px;
+	font-size: 35px;
+	background-color: blue;
+	color : white;
+	text-align: center;
+}
+nav{
+	position: fixed;
+	top : 50px;
+	width: 100%;
+	line-height: 25px;
+	background-color: lightblue;
+}
+section{
+	position: fixed;
+	top : 75px;
+	width: 100%; height: 100%;
+	background-color: lightgray;
+	
+}
+footer{
+	position : fixed;
+	bottom : 0px;
+	width: 100%;
+	line-height: 25px;
+	background-color: blue;
+	color : white;
+	text-align : center;
+}
+
+h1,td{
+	text-align : center;
+}
+
+.InputAlign{
+	text-align: center;
+}
+table{
+	margin:auto;
+}
